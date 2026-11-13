@@ -1,0 +1,3 @@
+String _two(int v) => v.toString().padLeft(2, '0');
+
+String fmtDate(DateTime d) => '${_two(d.day)}.${_two(d.month)}.${d.year}';
